@@ -31,6 +31,7 @@ a {
 
 a:hover {
     color: white;
+    text-decoration: none;
 }
 
 
@@ -50,7 +51,7 @@ a:hover {
 
 .text-swmf{
     font-family: 'Gupter', serif;
-    color: orange;
+    color: gold;
     
     font-weight: 200;
     text-shadow: 1px 1px black;
@@ -60,8 +61,8 @@ a:hover {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-.orange{
-    color: orange;
+.gold{
+    color: gold;
 }
 
 .square-symbol{
@@ -85,7 +86,7 @@ a:hover {
     font-size: 1.25em;
     width: 200px;
     top: -6em;
-    left: 8em;
+    left: 12em;
 }
 
 .card{
@@ -94,7 +95,7 @@ a:hover {
 
 .bg-semi{
     background-color: rgba(255,255,255,0.9);
-    border: 2px solid orange;
+    border: 2px solid gold;
 }
 
 .bg-semi-dark{
