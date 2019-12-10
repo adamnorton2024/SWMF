@@ -14,6 +14,7 @@ dark-blue: #2c4364; */
 body, html {
     height: 100%;
     font-family: 'Raleway', sans-serif;
+    background-attachment: fixed;
 }
 
 h1{
@@ -21,7 +22,7 @@ h1{
 }
 
 .navbar {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.20);
 }
 
 a {
@@ -45,6 +46,7 @@ a:hover {
 .bg-white-trans{
     background-color: rgba(255,255,255,0.25);
 }
+
 
 .text-swmf{
     font-family: 'Gupter', serif;
@@ -86,6 +88,26 @@ a:hover {
     left: 8em;
 }
 
+.card{
+    background-color: #22406b;
+}
+
+.bg-semi{
+    background-color: rgba(255,255,255,0.9);
+    border: 2px solid orange;
+}
+
+.bg-semi-dark{
+    background-color: rgba(44,67,100,0.9);
+    border: 2px solid #9bd5f7;
+}
+
+.blockquote{
+    color: #295ba1;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
 #bg-index{
     background-image: url("../images/bg_bokeh.jpg");
     height: 100%;
@@ -100,5 +122,35 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#bg-pg3{
+    background-image: url("../images/bg_father_child.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-pg4{
+    background-image: url("../images/bg_dallas_flood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: right;
+    overflow: auto;
+}
+
+#bg-pg5{
+    background-image: url("../images/bg_mother_child.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: right;
+    overflow: auto;
 }
 
