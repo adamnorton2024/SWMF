@@ -1,0 +1,104 @@
+/* fonts
+font-family: 'Gupter', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Libre Franklin', sans-serif; */
+
+/* * {
+    border: 1px dotted yellow;
+} */
+
+/* colors
+light-blue: #9bd5f7;
+dark-blue: #2c4364; */
+
+body, html {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 5em;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0);
+}
+
+a {
+    color: #9bd5f7;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.jumbotron{
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+.spacer{
+    height: 200px;
+}
+
+.bg-white-trans{
+    background-color: rgba(255,255,255,0.25);
+}
+
+.text-swmf{
+    font-family: 'Gupter', serif;
+    color: orange;
+    
+    font-weight: 200;
+    text-shadow: 1px 1px black;
+}
+
+.text-libre{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.orange{
+    color: orange;
+}
+
+.square-symbol{
+    height: 4em;
+}
+
+.btn-outline {
+    color: #9bd5f7;
+    border: 1px solid #9bd5f7;
+}
+
+.btn-outline:hover {
+    background-color: #9bd5f7;
+    color: #2c4364;
+    border: 1px solid #9bd5f7;
+}
+
+.text-overlay {
+    position: relative;
+    color: white;
+    font-size: 1.25em;
+    width: 200px;
+    top: -6em;
+    left: 8em;
+}
+
+#bg-index{
+    background-image: url("../images/bg_bokeh.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-pg2{
+    background-image: url("../images/bg_baby.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
