@@ -3,6 +3,4 @@ var backArr = ["url(./assets/images/bg_science01.jpg)", "url(assets/images/bg_sc
 var randomBackgroundNumber = Math.floor(Math.random() * backArr.length);
 console.log("randome number is " + randomBackgroundNumber);
 
-document.getElementById('bg-pg5').style.backgroundImage = backArr[randomBackgroundNumber];
-
-
+document.getElementById('bg-pg4').style.backgroundImage = backArr[randomBackgroundNumber];
